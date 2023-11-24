@@ -4,8 +4,8 @@ function threeSum(arr, target) {
     // Sort the input array
     nums.sort((a, b) => a - b);
 
-    let closestSum = Number.MAX_VALUE;
-    let closestDiff = Number.MAX_VALUE;
+    let closestSum = 1000000;
+    let closestDiff = 1000000;
 
     for (let i = 0; i < nums.length - 2; i++) {
         let left = i + 1;
