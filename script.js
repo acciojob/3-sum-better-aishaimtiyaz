@@ -1,4 +1,4 @@
-function threeSum(arr, target) {
+
 // write your code here
 	function threeSum(nums, target) {
     // Sort the input array
@@ -30,14 +30,6 @@ function threeSum(arr, target) {
 
     return closestSum;
 }
-
-// Example usage:
-const nums = [-1, 2, 1, -4];
-const target = 1;
-const result = threeSum(nums, target);
-console.log(result); // Output: 2
-
-  
-}
+ 
 
 module.exports = threeSum;
